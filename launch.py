@@ -23,7 +23,7 @@ from modules.launch_util import is_installed, run, python, run_pip, requirements
 from modules.model_loader import load_file_from_url
 
 REINSTALL_ALL = False
-TRY_INSTALL_XFORMERS = False
+TRY_INSTALL_XFORMERS = True
 
 
 def prepare_environment():
