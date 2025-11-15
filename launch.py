@@ -22,7 +22,7 @@ from build_launcher import build_launcher
 from modules.launch_util import is_installed, run, python, run_pip, requirements_met, delete_folder_content
 from modules.model_loader import load_file_from_url
 
-REINSTALL_ALL = False
+REINSTALL_ALL = True
 TRY_INSTALL_XFORMERS = True
 
 
